@@ -1,0 +1,2 @@
+<a class="nav-link  @if(Route::currentRouteName() == $entity.'.index') active @endif" href="{{route($entity.'.index')}}">LISTAR - EDITAR</a>
+<a class="nav-link  @if(Route::currentRouteName() == $entity.'.create') active @endif" href="{{route($entity.'.create')}}">CADASTRAR</a>

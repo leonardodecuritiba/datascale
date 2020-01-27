@@ -1,0 +1,10 @@
+<a class="nav-link @if(Menu::isRoute('requestions.patterns.index')) active @endif"
+   href="{{route('requestions.patterns.index')}}">LISTAR / EDITAR</a>
+<a class="nav-link @if(Menu::isRoute('requestions.patterns.create-by-due')) active @endif"
+   href="{{route('requestions.patterns.create-by-due')}}">REQ. POR VALIDADE</a>
+<a class="nav-link @if(Menu::isRoute('requestions.patterns.create-by-buy')) active @endif"
+   href="{{route('requestions.patterns.create-by-buy')}}">REQ. APÓS COMPRA</a>
+<a class="nav-link @if(Menu::isRoute('requestions.patterns.create-by-degradation')) active @endif"
+   href="{{route('requestions.patterns.create-by-degradation')}}">REQ. POR DEGRADAÇÃO</a>
+<a class="nav-link @if(Menu::isRoute('requestions.patterns.create-by-entity')) active @endif"
+   href="{{route('requestions.patterns.create-by-entity')}}">REQ. TÉC. MATRIZ/FILIAL</a>

@@ -1,0 +1,7 @@
+{
+    "Reset Password Notification": "Notificação para Atualizar Senha",
+    "You are receiving this email because we received a password reset request for your account.": "Você está recebendo este email porque um pedido para atualizar senha foi disparado para a sua conta.",
+    "Reset Password": "Atualizar Senha",
+    "This password reset link will expire in :count minutes.": "Este link para atualizar sua senha irá expirar em :count minutos.",
+    "If you did not request a password reset, no further action is required.": "Se você não requisitou a atualização de senha, nenhuma ação é necessária."
+}
